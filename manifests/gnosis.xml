@@ -15,7 +15,7 @@
   <project path="manifest" name="manifest" remote="gnosis" />
 
   <!-- Build -->
-  <!--remove-project name="platform/build" />
+  <remove-project name="platform/build" />
   <project path="build/make" name="build" groups="pdk" remote="gnosis" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -29,7 +29,7 @@
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="gnosis" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project-->
+  </project>
 
   <!-- Device -->
   <remove-project name="device/google/bramble" />
