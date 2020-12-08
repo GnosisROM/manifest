@@ -38,8 +38,8 @@
   <!-- External -->
 
   <!-- Frameworks -->
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="frameworks_base" remote="gnosis" />
+  <!--remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="frameworks_base" remote="gnosis" /-->
 
   <!-- Kernel -->
   <!--project path="kernel/google/bramble" name="kernel_google_bramble" remote="gnosis" /-->
@@ -47,8 +47,8 @@
   <!-- Native -->
 
   <!-- Packages -->
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gnosis" />
+  <!--remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gnosis" /-->
 
   <!-- System -->
 
